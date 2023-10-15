@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         
+        *{
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body
+        {
+            width: 100%;
+            height: 100%;
+        }
+        #main
+        {
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            position: relative;
+        }
+        .elem
+        {
+            width: 100%;
+            height: 120px;
+            border-bottom: 2px solid #fff;
+            display: flex;
+            align-items:center;
+            justify-content: flex-start;
+            position: relative;
+       
+        }
+        .elem h1
+        {
+            font-size: 6vw;
+            position: relative;
+             mix-blend-mode: difference;
+            z-index: 9;
+        }
+        .elem img
+        {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: center;
+            position: absolute ;
+            opacity: 0;
+            transition: all linear 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="elem">
+            <h1>Makha</h1>
+            <img src="https://plus.unsplash.com/premium_photo-1678236886582-70c1e00b6b8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="">
+        </div>
+        <div class="elem">
+            <h1>Madina</h1>
+            <img src="https://images.unsplash.com/photo-1683009426952-13567b4fa28b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2038&q=80" alt="">
+        </div>
+        <div class="elem">
+            <h1>Iran</h1>
+            <img src="https://images.unsplash.com/photo-1682685797229-b2930538da47?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" alt="">
+        </div>
+        <div class="elem">
+            <h1>Egypt</h1>
+            <img src="https://images.unsplash.com/photo-1683009427041-d810728a7cb6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1972&q=80" alt="">
+        </div>
+    </div>
+
+
+    <script src="Dom-Project4.js"></script>
+</body>
+</html>
